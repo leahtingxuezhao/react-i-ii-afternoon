@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #61dafb;
+  display: flex;
+}
+
+.home {
+  font-size: large;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+.background {
+  width: 100vw;
+  height: 85vh;
+  background-color: black;
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.cardBox {
+  width: 60vw;
+  height: 50vh;
+  background-color: lightgrey;
+}
+
+.cardAndButton {
+  width: 100vw;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardControls {
+  display: flex;
+}
+
+.name {
+  font-size: large;
+  border-bottom: 2px solid cornflowerblue;
+  font-weight: 800;
+}
+
+.movies {
+  width: 30vw;
+  text-align: left;
+  font-size: small;
+}
+
+.cardInfoBox {
+  margin-left: 5vw;
+  text-align: left;
+}
+
+.basic {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
