@@ -3,7 +3,9 @@ import { Switch, Route } from "react-router-dom";
 import Card from "./Card";
 
 export default (
-  <Switch>
-    <Route path="/card/:id" component={Card}></Route>
-  </Switch>
+  <App>
+    <Switch>
+      <Route path="/card/:id" component={Card}></Route>
+    </Switch>
+  </App>
 );
